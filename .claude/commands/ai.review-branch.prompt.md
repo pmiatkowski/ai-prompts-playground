@@ -1,7 +1,7 @@
 ---
 agent: 'agent'
-model: claude-sonnet-4-6
-tools: ['run_in_terminal', 'read', 'search/codebase']
+model: Claude Sonnet 4.6
+tools: ['agent', 'execute', 'read', 'search']
 description: 'Review code changes on the current branch against a target branch, with coding standards analysis and a structured report'
 argument-hint: 'Optional: describe the task or feature context for this branch'
 ---
